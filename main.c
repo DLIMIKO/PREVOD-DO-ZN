@@ -4,7 +4,7 @@
 
 /**
  * @def skonvertuj_na_znak
- * @brief makro, ktoré nám prevádza desiatkové číslo na znak
+ * @brief makro, ktoré nám prevádza číslo z desiatkovej sústavy na znak
  */
 #define skonvertuj_na_znak(x) ( (x) > 9 ? (char)((x) - 10 + 'A') : (char)((x) + '0') )
 
